@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inventory</title>
+        <link 
+        href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+        rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div id="app">
+            <h1 id="title" class="text-2xl text-blue-800">{{title}}</h1>
+            <p>{{counter}}</p>
+            <button class="py-2 px-4 bg-green-500 rounded text-white hover:bg-green-800" @click="add">+</button>
+            <button class="py-2 px-4 bg-green-500 rounded text-white ml-4 hover:bg-green-800"@click="rest">-</button>
+        </div>
+        <script src="https://unpkg.com/vue@next"></script>
+        <script>  src="main.js"</script>
+        
+    </body>
+</html>
